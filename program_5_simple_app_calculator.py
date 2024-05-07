@@ -21,3 +21,4 @@ while True:
 
     #  Prompt user to enter the first number
     while True:
+        try:
