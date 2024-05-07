@@ -11,3 +11,4 @@ while True:
     # Prompt user to enter their choice of operation
     while True:
         try:
+            operation = int(input("Please enter the operation you want to use (1 to 4): "))
