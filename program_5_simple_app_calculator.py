@@ -41,3 +41,4 @@ while True:
         #  Perform the selected operation and display the result
         try:
             if operation == 1:
+                result = first_number + second_number
