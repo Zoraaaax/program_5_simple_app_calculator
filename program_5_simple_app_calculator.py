@@ -18,3 +18,5 @@ while True:
                 print("\033[91mInvalid input! Please enter a number between 1 and 4.\n\033[0m")
         except ValueError:
             print("\033[91mInvalid input! Please enter a valid number.\033[0m")
+
+    while True:
