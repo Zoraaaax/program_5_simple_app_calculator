@@ -34,3 +34,4 @@ while True:
                 if operation == 4 and second_number == 0:
                     print("\033[91mZeroDivisionError: Division by zero is not allowed.\033[0m")
                     continue
+                break
