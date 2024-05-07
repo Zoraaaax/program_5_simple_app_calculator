@@ -8,4 +8,4 @@ print("\033[95m4. Division\033[0m")
 
 #  Loop for the calculator functionality
 while True:
-    
+    # Prompt user to enter their choice of operation
