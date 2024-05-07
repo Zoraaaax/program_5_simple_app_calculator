@@ -15,3 +15,4 @@ while True:
             if operation in [1, 2, 3, 4]:
                 break
             else:
+                print("\033[91mInvalid input! Please enter a number between 1 and 4.\n\033[0m")
