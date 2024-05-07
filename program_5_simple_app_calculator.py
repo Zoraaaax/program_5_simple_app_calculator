@@ -35,3 +35,4 @@ while True:
                     print("\033[91mZeroDivisionError: Division by zero is not allowed.\033[0m")
                     continue
                 break
+            except ValueError:
