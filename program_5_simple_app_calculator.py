@@ -14,3 +14,4 @@ while True:
             operation = int(input("Please enter the operation you want to use (1 to 4): "))
             if operation in [1, 2, 3, 4]:
                 break
+            else:
