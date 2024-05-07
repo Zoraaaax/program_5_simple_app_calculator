@@ -16,3 +16,4 @@ while True:
                 break
             else:
                 print("\033[91mInvalid input! Please enter a number between 1 and 4.\n\033[0m")
+        except ValueError:
