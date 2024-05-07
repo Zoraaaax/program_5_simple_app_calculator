@@ -23,3 +23,4 @@ while True:
     while True:
         try:
             first_number = float(input("Please enter the first number: "))
+            break
