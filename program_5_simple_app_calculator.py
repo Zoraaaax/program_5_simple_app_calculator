@@ -31,3 +31,4 @@ while True:
         while True:
             try:
                 second_number = float(input("Please enter the second number: "))
+                if operation == 4 and second_number == 0:
