@@ -19,4 +19,5 @@ while True:
         except ValueError:
             print("\033[91mInvalid input! Please enter a valid number.\033[0m")
 
+    #  Prompt user to enter the first number
     while True:
