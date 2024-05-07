@@ -39,3 +39,4 @@ while True:
                 print("\033[91mValueError: Invalid input! Please enter a valid number.\033[0m" )
 
         #  Perform the selected operation and display the result
+        try:
