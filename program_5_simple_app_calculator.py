@@ -7,3 +7,5 @@ print("\033[93m3. Multiplication\033[0m")
 print("\033[95m4. Division\033[0m")
 
 #  Loop for the calculator functionality
+while True:
+    
