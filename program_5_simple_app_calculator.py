@@ -30,3 +30,4 @@ while True:
         #  Prompt user to enter the second number
         while True:
             try:
+                second_number = float(input("Please enter the second number: "))
