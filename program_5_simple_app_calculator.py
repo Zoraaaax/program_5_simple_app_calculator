@@ -52,3 +52,4 @@ while True:
             elif operation == 4:
                 result = first_number / second_number
                 print(f"\033[95mThe result of division is {int(result) if result.is_integer() else result}\033[0m")
+        except ZeroDivisionError:
