@@ -55,3 +55,4 @@ while True:
         except ZeroDivisionError:
             print("\033[91mZeroDivisionError: Division by zero is not allowed.\033[0m")
         except Exception as exception:
+            print("\033[91mAn unexpected error occurred:\033[0m", exception)
