@@ -28,3 +28,4 @@ while True:
             print("\033[91mValueError: Invalid input! Please enter a valid number\033[0m")
 
         #  Prompt user to enter the second number
+        while True:
