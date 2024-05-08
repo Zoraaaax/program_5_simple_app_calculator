@@ -44,7 +44,7 @@ while True:
             result = first_number + second_number
             print(f"\033[96mThe result of addition is {int(result) if result.is_integer() else result}\033[0m")
         elif operation == 2:
-                result = first_number - second_number
+            result = first_number - second_number
                 print(f"\033[92mThe result of subtraction is{int(result) if result.is_integer() else result}\033[0m")
             elif operation == 3:
                 result = first_number * second_number
