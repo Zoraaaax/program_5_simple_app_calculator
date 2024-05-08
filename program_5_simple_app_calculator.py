@@ -72,3 +72,4 @@ while True:
 
         if try_again != y:
             print("Thank you! The program will exit.")
+            break
