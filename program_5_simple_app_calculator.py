@@ -59,7 +59,7 @@ while True:
 
     print()
 
-        #  Ask user if they want to try again
+    #  Ask user if they want to try again
         while True:
             try:
                 try_again = input("Do you want to try again (y/n)? ").lower()
