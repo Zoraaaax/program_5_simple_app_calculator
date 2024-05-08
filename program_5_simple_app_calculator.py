@@ -66,7 +66,7 @@ while True:
             if try_again in ['y', 'n']:
                 break
             else:
-                    print("\033[91mInvalid input! Please enter 'y' for yes or 'n' for no.\033[0m")
+                print("\033[91mInvalid input! Please enter 'y' for yes or 'n' for no.\033[0m")
             except ValueError:
                 print("\033[91mInvalid input! Please enter 'y' for yes and 'n' for no.\033[0m")
 
