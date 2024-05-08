@@ -33,7 +33,7 @@ while True:
             second_number = float(input("Please enter the second number: "))
             if operation == 4 and second_number == 0:
                 print("\033[91mZeroDivisionError: Division by zero is not allowed.\033[0m")
-                    continue
+                continue
                 break
             except ValueError:
                 print("\033[91mValueError: Invalid input! Please enter a valid number.\033[0m")
