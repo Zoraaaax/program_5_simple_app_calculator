@@ -30,7 +30,7 @@ while True:
     #  Prompt user to enter the second number
     while True:
         try:
-                second_number = float(input("Please enter the second number: "))
+            second_number = float(input("Please enter the second number: "))
                 if operation == 4 and second_number == 0:
                     print("\033[91mZeroDivisionError: Division by zero is not allowed.\033[0m")
                     continue
