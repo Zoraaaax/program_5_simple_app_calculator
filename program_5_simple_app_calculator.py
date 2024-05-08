@@ -39,7 +39,7 @@ while True:
             print("\033[91mValueError: Invalid input! Please enter a valid number.\033[0m")
 
     #  Perform the selected operation and display the result
-        try:
+    try:
             if operation == 1:
                 result = first_number + second_number
                 print(f"\033[96mThe result of addition is {int(result) if result.is_integer() else result}\033[0m")
