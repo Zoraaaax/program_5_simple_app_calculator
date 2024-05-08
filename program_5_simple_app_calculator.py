@@ -65,3 +65,4 @@ while True:
                 try_again = input("Do you want to try again (y/n)? ").lower()
                 if try_again in ['y', 'n']:
                     break
+                else:
