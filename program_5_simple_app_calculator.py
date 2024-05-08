@@ -57,7 +57,7 @@ while True:
     except Exception as exception:
         print("\033[91mAn unexpected error occurred:\033[0m", exception)
 
-        print()
+    print()
 
         #  Ask user if they want to try again
         while True:
