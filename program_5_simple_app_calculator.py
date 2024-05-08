@@ -61,7 +61,7 @@ while True:
 
     #  Ask user if they want to try again
     while True:
-            try:
+        try:
                 try_again = input("Do you want to try again (y/n)? ").lower()
                 if try_again in ['y', 'n']:
                     break
