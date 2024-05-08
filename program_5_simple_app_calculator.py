@@ -60,7 +60,7 @@ while True:
     print()
 
     #  Ask user if they want to try again
-        while True:
+    while True:
             try:
                 try_again = input("Do you want to try again (y/n)? ").lower()
                 if try_again in ['y', 'n']:
