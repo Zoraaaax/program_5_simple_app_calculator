@@ -53,7 +53,7 @@ while True:
             result = first_number / second_number
             print(f"\033[95mThe result of division is {int(result) if result.is_integer() else result}\033[0m")
     except ZeroDivisionError:
-            print("\033[91mZeroDivisionError: Division by zero is not allowed.\033[0m")
+        print("\033[91mZeroDivisionError: Division by zero is not allowed.\033[0m")
         except Exception as exception:
             print("\033[91mAn unexpected error occurred:\033[0m", exception)
 
