@@ -38,7 +38,7 @@ while True:
         except ValueError:
             print("\033[91mValueError: Invalid input! Please enter a valid number.\033[0m")
 
-        #  Perform the selected operation and display the result
+    #  Perform the selected operation and display the result
         try:
             if operation == 1:
                 result = first_number + second_number
