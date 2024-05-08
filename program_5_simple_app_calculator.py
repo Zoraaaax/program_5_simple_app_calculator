@@ -70,7 +70,7 @@ while True:
             except ValueError:
                 print("\033[91mInvalid input! Please enter 'y' for yes and 'n' for no.\033[0m")
 
-        if try_again != y:
+        if try_again != "y":
             print("Thank you! The program will exit.")
             break
 
