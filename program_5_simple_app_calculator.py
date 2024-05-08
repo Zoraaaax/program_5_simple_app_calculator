@@ -27,8 +27,8 @@ while True:
         except ValueError:
             print("\033[91mValueError: Invalid input! Please enter a valid number\033[0m.")
 
-        #  Prompt user to enter the second number
-        while True:
+    #  Prompt user to enter the second number
+    while True:
             try:
                 second_number = float(input("Please enter the second number: "))
                 if operation == 4 and second_number == 0:
