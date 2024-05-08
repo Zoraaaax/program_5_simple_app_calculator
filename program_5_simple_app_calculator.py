@@ -67,3 +67,4 @@ while True:
                     break
                 else:
                     print("\033[91mInvalid input! Please enter 'y' for yes or 'n' for no.\033[0m")
+            except ValueError:
